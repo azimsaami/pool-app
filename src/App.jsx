@@ -85,9 +85,10 @@ const POOL_IDEAL = {
 };
 
 const MAINTENANCE_TASKS = [
-  { id: "skimmer", label: "Clean Skimmer Basket", intervalDays: 3, icon: "🧺" },
+  { id: "skimmer", label: "Clean Skimmer Basket", intervalDays: 7, icon: "🧺" },
   { id: "brush", label: "Brush Pool Walls", intervalDays: 7, icon: "🖌️" },
-  { id: "vacuum", label: "Vacuum Pool Floor", intervalDays: 7, icon: "🌊" },
+  { id: "vacuum", label: "Empty Vacuum Basket", intervalDays: 7, icon: "🌊" },
+  { id: "filter-skimmer", label: "Empty Filter Skimmer Basket", intervalDays: 7, icon: "🗑️" },
   { id: "filter", label: "Deep Clean Filter", intervalDays: 180, icon: "⚙️" },
 ];
 
